@@ -17,16 +17,16 @@ from dictionaryio import DictionaryIO
 word = DictionaryIO('happy') # replace `happy` with any word of your choice
 word.wordie # returns a string of the word. eg: 'happy'
 
-GET MEANING:
+#GET MEANING:
 word.meaning() # returns the meaning of the word
 
-GET VOICE PRONUNCIATION:
+#GET VOICE PRONUNCIATION:
 word.pronounce() # plays pronounciation of the word - requires exit with CTRL + C
 
-GET EXAMPLE:
+#GET EXAMPLE:
 word.example() # returns a string making an example of the word
 
-OTHERS:
+#OTHERS:
 word.synonyms() # returns a list of synonyms for the word
 word.figure_of_speech() # returns the figure of speech for the word
 word.phonetics() # returns the phonetics of the word
@@ -38,4 +38,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/luckyadogun/dictionaryIO/blob/master/LICENSE)
