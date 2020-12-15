@@ -1,4 +1,4 @@
-from dictio import DictionaryIO
+from dictionaryio import DictionaryIO
 
 def test_response():
     word: DictionaryIO = DictionaryIO('car')
